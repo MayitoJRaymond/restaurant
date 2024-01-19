@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+   width:100%;
+   /* margin-left:10px ; */
+   align-items: center;
+   background-image: url('photos/meat.jpeg'); /* Replace 'your-background-image.jpg' with the path to your image*/
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; 
+}
+nav{
+   width: 100%;
+   height:80px ;
+   line-height:76px ; 
+   display: flex;
+   position: fixed;
+   justify-content: space-between ;
+   background-color: rgba(128, 128, 128, 0.74);
+  
+   
+}
+.logo a{
+    font:50px ;
+    color: red;
+    font-weight: bold;
+}
+a{
+   text-decoration: none;
+   color: whitesmoke;
+   font: 20px;
+   transition: 0.3s all ease;
+}
+ul{
+   margin: 0px;
+
+}
+ul li{
+   float: left;
+   padding:0px 10px ;
+   list-style: none;
+}
+ul li a:hover{
+   color: red   ;
+}
+
+.header{
+
+background-image:url("meat.jpeg");
+background-position: center;
+background-size: cover;
+height: 100vh; 
+background-repeat: no-repeat;
+object-fit: contain;
+
+}
+
+
+.content{
+    margin-top:120px;
+position: absolute;
+text-align: center;
+margin-left: 100px;
+background-color: #3333339f;
+}
+
+.content h1{
+    font-weight: bold;
+font-size: 36px;
+color: rgb(8, 235, 205);
+}
+.content p{
+padding: 0px  30px;
+font-size: 20px;
+color: whitesmoke;
+
+}
+button{
+background:wheat ;
+border: 1px solid wheat ;
+color:black;
+font-size: 16 px;
+border-radius: 6px;
+padding: 7px 20px ;
+transition: 0.5s all ease;
+height: 10vh;
+width: 10vw;
+font-weight: bolder;
+
+}
+button:hover{
+background: grey ;
+color: white;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row-g{
+    width: 96%;
+    margin: 50px;
+    align-items: center;
+    background-color: honeydew;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 6px;
+}
+.coll{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.coll img{
+    border-radius: 30px;
+    object-fit:cover;
+    height: 30vh;
+    cursor: pointer;
+   
+
+}
+
+.coll img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.row-footer {
+    margin-top: 50px;
+   display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 6px;
+    text-align: center;
+    background-color: rgba(63, 61, 61, 0.966);
+    color: white;
+}
+
+.footer-column{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fdfafa;
+}
